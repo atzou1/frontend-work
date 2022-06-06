@@ -1,0 +1,144 @@
+
+html{
+    font-family: 'Outfit', sans-serif;
+    background-color:rgba(12,23,41,255);
+}
+@media screen and (min-width: 1001px) {
+.section{
+    background-color: rgba(21,39,63,255);
+    margin: 0 35% 0 35%;
+    border-radius: 20px 20px;
+    padding: 1% 1.8% 0 1.8%;
+}
+
+/*img*/
+img{
+    height: 100%;
+    width: 100%;
+}
+img.image{
+    border-radius: 20px 20px;
+}
+/*text section*/
+.content{
+    padding-bottom: 5%;
+}
+h1{
+    color: white;
+}
+p{
+    color: rgb(139,172,218);  
+    font-size: 18px;
+    font-weight: lighter;
+}
+.eth{
+    color: rgb(0,255,247);
+    /* float: right; */
+    /* display: flex;
+    align-items: center; */
+}
+.days img{
+    width: auto;
+    height: auto;
+    padding-right: 8px;
+}
+.days{
+    color: rgb(139,172,218);
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.eth img{
+    width: auto;
+    height: auto;
+    padding-right: 8px;
+}
+div .creator{
+    border-top: solid rgb(139,172,218) 1px;
+    padding: 4.5% 0;
+    display: flex;
+    align-items: center;
+}
+span.creator{
+    color: rgb(139,172,218);
+}
+.creator a{
+    color:white;
+    text-decoration: none;
+}
+.creator img{
+    width: 30px;
+    height: 30px;
+    padding-right: 8px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+    .section{
+        background-color: rgba(21,39,63,255);
+        margin: 0 20% 0 20%;
+        border-radius: 20px 20px;
+        padding: 3% 3% 0 3%;
+    }
+/*img*/
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    img.image{
+        border-radius: 20px;
+
+    }
+    /*text section*/
+    .content{
+        padding-bottom: 5%;
+    }
+    h1{
+        color: white;
+    }
+    p{
+        color: rgb(139,172,218);  
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .eth{
+        color: rgb(0,255,247);
+        /* float: right; */
+        /* display: flex;
+        align-items: center; */
+    }
+    .days img{
+        width: auto;
+        height: auto;
+        padding-right: 8px;
+    }
+    .days{
+        color: rgb(139,172,218);
+        display: flex;
+        align-items: center;
+        float: right;
+    }
+    .eth img{
+        width: auto;
+        height: auto;
+        padding-right: 8px;
+    }
+    div .creator{
+        border-top: solid rgb(139,172,218) 1px;
+        padding: 4.5% 0;
+        display: flex;
+        align-items: center;
+    }
+    span.creator{
+        color: rgb(139,172,218);
+    }
+    .creator a{
+        color:white;
+        text-decoration: none;
+    }
+    .creator img{
+        width: 30px;
+        height: 30px;
+        padding-right: 8px;
+    }
+}
